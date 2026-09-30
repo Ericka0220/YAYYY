@@ -3,3 +3,60 @@
    First task: import colors.css.
 */
 @import url(./colors.css);
+
+.logo{
+   color:var(--Primary, #FAECEF);
+   font-size: 32px;
+   font-weight: bold;
+}
+#primary-nav a{
+   color:var(--Primary, #1d3557);
+   text-decoration: none;
+   font-weight: bold;
+}
+#primary-nav{
+   margin-top: 10px;
+}
+body{
+   background-color:var(--light,#f1faee);
+}
+#hero{
+   background-color:var(--Primary, #1d3557);
+   color:var(--light, #F1E7DC);
+}
+
+#hero .eyebrow{
+   color:var(--accent, #e63946);
+}
+.button{
+   padding:10px;
+   background-color:var(--accent, #e63946);
+   color:var(--white, #ffffff);
+   text-decoration: none;
+   font-weight: bold;
+   margin-right: 10px;
+
+}
+.button-secondary{
+   background-color:var(--white, #ffffff);
+   color:var(--Primary, #1d3557);
+}
+#hero h1{
+   width: 650px;
+}
+   
+#hero .hero-copy{
+   width: 650px;
+}
+.container{
+   max-width: 800px;
+   margin: 0  auto 0 auto;
+}
+.card-grid, .benefit-list {
+   display: flex;
+   gap: 20px;
+}
+.benefit-list .benefit {
+   flex-direction: column;
+   display: flex;
+}
