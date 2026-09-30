@@ -5,7 +5,7 @@
 @import url(./colors.css);
 
 .logo{
-   color:var(--Primary, #FAECEF);
+   color:var(--Primary, #000000);
    font-size: 32px;
    font-weight: bold;
 }
@@ -26,7 +26,7 @@ body{
 }
 
 #hero .eyebrow{
-   color:var(--accent, #e63946);
+   color:var(--accent, #f9f9f9);
 }
 .button{
    padding:10px;
@@ -35,7 +35,6 @@ body{
    text-decoration: none;
    font-weight: bold;
    margin-right: 10px;
-
 }
 .button-secondary{
    background-color:var(--white, #ffffff);
@@ -59,4 +58,58 @@ body{
 .benefit-list .benefit {
    flex-direction: column;
    display: flex;
+}
+.site-footer{
+   background-color:var(--dark, #1d1d1d);
+   color:var(--light, #F1E7DC);
+}
+#contact{
+   background-color:var(--Primary, #8ba8d0);
+   color:var(--light, #F1E7DC);
+   padding: 50px 0;
+}
+#community{
+   background-color:var(--light, #f1faee);
+   color:var(--dark, #1d1d1d);
+   padding: 50px 0;
+}
+.section-title{
+   font-size: 28px;
+   margin-bottom: 20px;
+   color:var(--dark, #1d1d1d);
+}
+.container.testimonial {
+   max-width: 700px;
+   margin: 0 auto 0 auto;
+   text-align: center;
+}
+.highlight {
+   background-color: var(--gray, #e0e0e0);
+   color: var(--dark, #1d1d1d);
+   padding: 50px 0;
+}
+.testimonial blockquote {
+   font-style: italic;
+   margin: 0 0;
+   padding: 10px 20px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.dark section {
+   background-color: var(--dark, #c6dfbd);
+   color: var(--light, #F1E7DC);
+   padding: 50px 0;
+}
+#benefits.dark-section {
+   background-color: var(--dark, #c6dfbd);
+   color: var(--light, #F1E7DC);
+   padding: 100px 0;
+}
+.section-title {
+   font-weight: bold;
+   color: var(--white, #ffffff);
+}
+#about{
+   color:var(--black, #000000);
+   padding: 50px 0;
 }
