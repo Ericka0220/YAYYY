@@ -99,25 +99,25 @@ h2{
    font-weight: bold;
 }
 .dark section {
-   background-color: var(--dark, #c6dfbd);
-   color: var(--light, #F1E7DC);
+   background-color: var(--dark);
+   color: var(--light);
    padding: 50px 0;
 }
 #benefits.dark-section {
-   background-color: var(--dark, #c6dfbd);
-   color: var(--light, #F1E7DC);
+   background-color: var(--dark);
+   color: var(--light);
    padding: 100px 0;
 }
 #benefits .section-title {
    font-weight: bold;
-   color: var(--white, #ffffff);
+   color: var(--white);
 }
 #whatwedo .section-title {
    font-weight: bold;
-   color: var(--white, #ffffff);
+   color: var(--white);
 }
 #about{
-   color:var(--black, #000000);
+   color:var(--black);
    padding: 50px 0;
 }
 #about .two-column {
@@ -133,12 +133,12 @@ h2{
    display: flex;
 }
 .feature-layout.community .feature-item{
-   background-color:var(--light, #adb5ab);
+   background-color:var(--gray);
    display:flex;
    flex-direction: column;
    padding: 20px;
    width: 33%;
-   border-left: 1px solid var(--dark, #1d1d1d);
+   border-left: 2px solid var(--accent);
 }
 
 .featured-dark {
@@ -155,3 +155,13 @@ h2{
    flex-direction: column;
    padding: 20px;
 }
+.container.footer-layout {
+   display: flex;
+   gap: 100px;
+}
+.site-footer a {
+   color: var(--light);
+   text-decoration: none;
+}
+
+ 
